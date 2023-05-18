@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ ! -d "tests/build" ]; then
+  mkdir tests/build
+fi
+
 echo -e "------------------------- Test_01 -------------------------\n"
 
 g++ -o tests/build/t1 tests/test_1.cpp
@@ -39,5 +43,3 @@ g++ -o tests/build/t7 tests/test_7.cpp
 
 
 echo -e "\n-----------------------------------------------------------"
-
-
