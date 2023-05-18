@@ -6,11 +6,11 @@ Bash script for listing function names and parameter types from binary file whic
 
 ## Usage
 
-The main script is: function_lister.sh, located in the root directory. After giving permission to the file, run it with: ./function_lister [input_binary] . Expects one argument, which is the path to the binary.
+The main script is: function_lister.sh, located in the root directory. Run it using the: "./function_lister [input_binary]" command. Expects one argument, which is the path to the binary.
 
 ## Testing
 
-For testing purposes there are 7 testible program sourcecodes in the tests/ folder. Giving permission and then running the test_runner.sh script will compile them with g++ and then run the main script with all of them.
+For testing purposes there are 7 testible program sourcecodes in the tests/ folder. Running the test_runner.sh script (located in the root directory) will compile them with g++ and then run the main script with all of them.
 
 ### Test-cases:
 
